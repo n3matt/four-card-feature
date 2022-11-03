@@ -37,10 +37,15 @@ header.header {
 }
 
 .grayBlue { color: var(--grayBlue); }
+.darkBlue { color: var(--darkBlue);}
 
 
 header h2 {
     font-size: 2.3em;
+}
+
+header h2.grayBlue {
+    font-weight: normal;
 }
 
 header p {
@@ -92,9 +97,6 @@ header p {
     border-color: var(--Blue);
 }
 
-.col p {
-    color: var(--grayBlue);
-}
 
 
 .col img {
