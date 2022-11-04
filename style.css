@@ -61,11 +61,6 @@ header p {
     gap: 25px;
 }
 
-@media (max-width: 768px) {
-    .grid {
-        flex-direction: column;
-    }
-}
 
 
 .col {
@@ -99,8 +94,20 @@ header p {
 
 
 
+
 .col img {
     display: block;
     margin-left: auto;
     margin-top: 37px;
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+    .Red {
+        margin-bottom: 25px;
+
+    }
 }
