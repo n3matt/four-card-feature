@@ -106,8 +106,8 @@ header p {
     .grid {
         flex-direction: column;
     }
-    .Red {
-        margin-bottom: 25px;
+    .col.Red {
+        margin-bottom: 40px;
 
     }
 }
